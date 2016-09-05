@@ -1,0 +1,115 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "3acfe1a397953d1dd524360f8b42d2e4",
+    "content-hash": "19d8c6de8afac3feed92eae031e5c0af",
+    "packages": [
+        {
+            "name": "php2wsdl/php2wsdl",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dragosprotung/php2wsdl.git",
+                "reference": "26fd542aac4ef61ed8c528f5c1106aab2a9ffb97"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dragosprotung/php2wsdl/zipball/26fd542aac4ef61ed8c528f5c1106aab2a9ffb97",
+                "reference": "26fd542aac4ef61ed8c528f5c1106aab2a9ffb97",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "wingu/reflection": "~1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8",
+                "scrutinizer/ocular": "~1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHP2WSDL\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dragos Protung",
+                    "email": "dragos@protung.ro"
+                }
+            ],
+            "description": "Create WSDL files form PHP classes.",
+            "homepage": "http://github.com/dragosprotung/php2wsdl",
+            "keywords": [
+                "web services",
+                "wsdl",
+                "wsdl generator"
+            ],
+            "time": "2016-04-14 08:00:55"
+        },
+        {
+            "name": "wingu/reflection",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Speicher210/Reflection.git",
+                "reference": "b5f3be85ac287455d83e8313b06471a210e1bfb9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Speicher210/Reflection/zipball/b5f3be85ac287455d83e8313b06471a210e1bfb9",
+                "reference": "b5f3be85ac287455d83e8313b06471a210e1bfb9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*",
+                "scrutinizer/ocular": "~1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Wingu\\OctopusCore\\Reflection\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dragos Protung",
+                    "email": "dragos@protung.ro",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Library on top of PHP Reflection with some extra helper methods and a more powerful PHP DocBlock and annotation tags reflection",
+            "homepage": "https://github.com/Speicher210/Reflection",
+            "keywords": [
+                "annotations",
+                "php reflection",
+                "reflection"
+            ],
+            "time": "2015-03-19 16:20:21"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "php2wsdl/php2wsdl": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
